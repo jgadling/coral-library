@@ -1,0 +1,146 @@
+body {
+  background-color: #999;
+  background: -moz-linear-gradient(rgb(0, 0, 0) 96px, rgb(16, 34, 81) 165px); 
+  background: -webkit-gradient(linear, left top, left 300, color-stop(12%, rgb(0, 0, 0)), color-stop(75%, rgb(16, 34, 81)));
+  filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000000', endColorstr='#102251'); /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000000', endColorstr='#102251')"; /* IE8 */
+  font-family: helvetica, verdana, geneva, arial;
+  text-align: center;
+}
+#content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  border: 1px solid #666;
+  background-color: white;
+  overflow: auto;
+  position: relative;
+}
+#attrib {
+  color: #999;
+  padding: 10px;
+  margin: 0;
+  font-size: 8pt;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+h1 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+#distmap {
+  border: 1px solid #ccc;
+}
+#coralinfo {
+   width: 760px;
+  margin: 10px;
+float: left;
+overflow: auto;
+}
+#sidebar {
+  border: 1px solid #999;
+  float: left;
+  background-color: #ccc;
+  top: 0;
+  right: 0;
+  width: 218px;
+  overflow: hidden;
+  background: -moz-linear-gradient(rgb(184, 184, 184) 0, rgb(227, 227, 227) 13px, rgb(255, 255, 255) 23px, rgb(199, 199, 199) 39px); 
+  background: -webkit-gradient(linear, left top, left 50, color-stop(0%, rgb(184, 184, 184)), color-stop(26%, rgb(227, 227, 227)), color-stop(47%, rgb(255, 255, 255)), color-stop(79%, rgb(199, 199, 199)));
+  filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e6e6e6', endColorstr='#cccccc'); /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e6e6e6', endColorstr='#cccccc')"; /* IE8 */
+}
+#sidebar hr {
+  height: 1px; 
+  border: 1px; 
+  background-color: #000000; 
+  color: #000000; 
+  width: 100%; 
+  margin: 5px auto 5px auto;
+}
+#sidebar h2 {
+  margin: 5px;
+  font-size: 12pt;
+}
+#sidebar a {
+  font-size: 10pt;
+  color: #333333;
+  display: block;
+  line-height: 1.4em;
+  padding-left: 1em;
+}
+#sidebar a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #333333;
+  background: -moz-linear-gradient(rgb(150, 150, 150) 0%, rgb(0, 0, 0) 77%, rgb(82, 82, 82) 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(150, 150, 150)), color-stop(77%, rgb(0, 0, 0)), color-stop(100%, rgb(82, 82, 82)));
+  filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#969696', endColorstr='#000000'); /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#969696', endColorstr='#000000')"; /* IE8 */
+}
+#header hr {
+  height: 1px; 
+  border: 1px; 
+  background-color: #ffffff; 
+  color: #ffffff; 
+  width: 100%; 
+  margin: 5px auto 5px auto;
+}
+#header {
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+#headlinks {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+#headlinks a {
+  color: #ffffff;
+  font-size: 10pt;
+  text-decoration: none;
+  margin-left: 2em;
+  display: block;
+  float: left;
+  line-height: 2em;
+}
+.genus {
+   margin-left: 15px;
+}
+.genus h2 {
+  margin: 15px 0 0 0;
+  font-size: 16pt;
+}
+.genus hr {
+  height: 1px; 
+  border: 1px; 
+  background-color: #000000; 
+  color: #000000; 
+}
+.genus a {
+  display: block;
+  text-decoration: none;
+  font-size: 12pt;
+  color: #333333;
+  line-height: 1.4em;
+}
+.genus a:hover {
+  color: #ffffff;
+  background-color: #cccccc;
+  text-decoration: none;
+  background: -moz-linear-gradient(rgb(150, 150, 150) 0%, rgb(0, 0, 0) 77%, rgb(82, 82, 82) 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(150, 150, 150)), color-stop(77%, rgb(0, 0, 0)), color-stop(100%, rgb(82, 82, 82)));
+}
+.column {
+  width: 30%;
+  float: left;
+}
+img { border: 0; }
